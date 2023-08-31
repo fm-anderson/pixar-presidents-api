@@ -1,10 +1,15 @@
 from flask import Flask, jsonify, abort
+from flask_cors import CORS
 from presidents import presidents
 
 app = Flask(__name__)
-
-# FLASK_APP=app.py
-# FLASK_ENV=development
+CORS(
+    app,
+    origins=[
+        "https://presidents.fm-anderson.com/",
+        "https://presidents-memory.netlify.app/",
+    ],
+)
 
 
 @app.route("/", methods=["GET"])
@@ -22,3 +27,7 @@ def get_president(president_id):
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
+# FLASK_APP=app.py
+# FLASK_ENV=development
