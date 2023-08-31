@@ -28,7 +28,7 @@ presidents = [
         "ordinal": 4,
         "name": "James Madison",
         "yearsInOffice": "1809-1817",
-        "vicePresidents": ["George Clinton", "Elbr'id'ge Gerry"],
+        "vicePresidents": ["George Clinton", "Elbridge Gerry"],
         "photo": "https://presidents-memory.netlify.app/presidents/4.png",
     },
     {
@@ -116,7 +116,7 @@ presidents = [
         "ordinal": 15,
         "name": "James Buchanan",
         "yearsInOffice": "1857-1861",
-        "vicePresidents": ["John C. Breckinr'id'ge"],
+        "vicePresidents": ["John C. Breckinridge"],
         "photo": "https://presidents-memory.netlify.app/presidents/15.png",
     },
     {
@@ -228,13 +228,13 @@ presidents = [
         "ordinal": 29,
         "name": "Warren G. Harding",
         "yearsInOffice": "1921-1923",
-        "vicePresidents": ["Calvin Cool'id'ge"],
+        "vicePresidents": ["Calvin Coolidge"],
         "photo": "https://presidents-memory.netlify.app/presidents/29.png",
     },
     {
         "id": 30,
         "ordinal": 30,
-        "name": "Calvin Cool'id'ge",
+        "name": "Calvin Coolidge",
         "yearsInOffice": "1923-1925",
         "vicePresidents": ["Charles G. Dawes"],
         "photo": "https://presidents-memory.netlify.app/presidents/30.png",
@@ -348,7 +348,7 @@ presidents = [
         "ordinal": 44,
         "name": "Barack Obama",
         "yearsInOffice": "2009-2017",
-        "vicePresidents": ["Joe B'id'en"],
+        "vicePresidents": ["Joe Biden"],
         "photo": "https://presidents-memory.netlify.app/presidents/44.png",
     },
     {
@@ -362,7 +362,7 @@ presidents = [
     {
         "id": 46,
         "ordinal": 46,
-        "name": "Joe B'id'en",
+        "name": "Joe Biden",
         "yearsInOffice": "2021-present",
         "vicePresidents": ["Kamala Harris"],
         "photo": "https://presidents-memory.netlify.app/presidents/46.png",
