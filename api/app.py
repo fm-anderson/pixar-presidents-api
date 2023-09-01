@@ -3,7 +3,8 @@ from flask_cors import CORS
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 import logging
-from presidents import presidents
+from api.presidents import presidents
+
 
 app = Flask(__name__)
 CORS(
