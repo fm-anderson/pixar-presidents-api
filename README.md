@@ -17,7 +17,7 @@ The President Memory Game API provides endpoints to retrieve information about U
 
 If you find any issues with the API or want to contribute new features, you can either fork the repository and submit a pull request with the fixed code or create a new issue.
 
-## A note to anyone taking the time to check this out.
+## A note to anyone taking the time to check this project.
 
 I have experience developing applications with React, MongoDB, and Node. Venturing into the world of Python is quite an exciting shift for me. I'm comfortable developing APIs with Node or anything JS related, but I decided to use Python for this project due to its simplicity. It's like discovering a whole new world of coding. I can see why people love this language so much, and I hope I can get better at it with time.
 
