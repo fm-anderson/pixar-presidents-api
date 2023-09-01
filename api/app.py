@@ -3,7 +3,7 @@ from flask_cors import CORS
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 import logging
-from api.presidents import presidents
+from presidents import presidents
 
 app = Flask(__name__)
 CORS(
@@ -14,7 +14,7 @@ CORS(
     ],
 )
 
-limiter = Limiter(app, key_func=get_remote_address)
+limiter = Limiter(app=app, key_func=get_remote_address)
 logging.basicConfig(level=logging.DEBUG)
 
 
@@ -39,7 +39,9 @@ def not_found(error):
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    from werkzeug.serving import run_simple
+
+    run_simple("localhost", 8080, app)
 
 
 # FLASK_APP=app.py
