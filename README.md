@@ -23,6 +23,4 @@ I have experience developing applications with React, MongoDB, and Node. Venturi
 
 Consider this space a playground of experimentation and discovery. If you're an experienced Python developer stumbling upon this project, your insights and suggestions are always welcomed! Feel free to reach out with your thoughts, ideas, or simply to say hello! We're here to learn, share, and uplift one another.
 
-Cheers,
-
-[Anderson](https://github.com/fm-anderson).
+Cheers!
