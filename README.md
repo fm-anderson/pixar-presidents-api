@@ -10,11 +10,12 @@ The President Memory Game API provides endpoints to retrieve information about U
 
 ## Endpoints
 
-- `GET /`: Get a list of U.S. presidents with their basic information.
+`GET /`: Get a list of U.S. presidents with their basic information.
 ```python
 https://pixar-presidents-api.vercel.app/
 ```
-- `GET /<int:president_id>`: Get details about a specific U.S. president using their ID.
+`GET /<int:president_id>`: Get details about a specific U.S. president using their ID.
+
 ```python
 https://pixar-presidents-api.vercel.app/<int:president_id>
 ```
