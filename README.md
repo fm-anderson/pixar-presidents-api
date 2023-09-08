@@ -1,6 +1,5 @@
 # President Memory Game API
 
-
 This API serves as the backend for the [President Memory Game](https://presidents.fm-anderson.com/), a fun and interactive memory card game featuring U.S. presidents as Pixar characters. The game challenges players to match cards featuring funny U.S. Presidents avatars.
 
 **Play the game here →** https://presidents.fm-anderson.com/
