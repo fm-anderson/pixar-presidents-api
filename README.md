@@ -4,6 +4,8 @@ This API serves as the backend for the [President Memory Game](https://president
 
 **Play the game here →** https://presidents.fm-anderson.com/
 
+**`GET` all presidents →** https://pixar-presidents-api.vercel.app/
+
 ## Description
 
 The President Memory Game API provides endpoints to retrieve information about U.S. presidents, which is used to populate the game's cards with avatars and details of the presidents. The API is built using Flask and supports rate limiting to prevent abuse.
